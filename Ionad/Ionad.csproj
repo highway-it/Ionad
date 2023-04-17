@@ -8,9 +8,9 @@
     <Description>Replaces static method calls</Description>
     <PackageTags>Static, ILWeaving, Fody, Cecil</PackageTags>
     <PackageOutputPath>$(SolutionDir)nugets</PackageOutputPath>
-    <PackageIconUrl>https://raw.githubusercontent.com/Fody/Ionad/master/package_icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/highway-it/Ionad/master/package_icon.png</PackageIconUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/Fody/Ionad</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/highway-it/Ionad</PackageProjectUrl>
   </PropertyGroup>
   <ItemGroup>
     <Using Remove="System.Net.Http" />
