@@ -5,7 +5,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
     <Authors>Cameron MacFarland, Simon Cropp</Authors>
-    <Description>Replaces static method calls.</Description>
+    <Description>Replaces static method calls</Description>
     <PackageTags>Static, ILWeaving, Fody, Cecil</PackageTags>
     <PackageOutputPath>$(SolutionDir)nugets</PackageOutputPath>
     <PackageIconUrl>https://raw.githubusercontent.com/Fody/Ionad/master/package_icon.png</PackageIconUrl>
