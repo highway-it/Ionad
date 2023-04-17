@@ -1,4 +1,4 @@
-using Ionad;
+using HIT.Ionad;
 
 [StaticReplacement(typeof(DateTime))]
 public static class DateTimeReplacement

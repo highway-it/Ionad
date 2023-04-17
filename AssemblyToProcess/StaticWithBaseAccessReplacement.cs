@@ -1,4 +1,4 @@
-using Ionad;
+using HIT.Ionad;
 
 [StaticReplacement(typeof(StaticWithBaseAccess))]
 public static class StaticWithBaseAccessReplacement

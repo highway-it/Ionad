@@ -1,4 +1,4 @@
-using Ionad;
+using HIT.Ionad;
 
 [StaticReplacement(typeof(StaticWithOverloads))]
 public static class StaticWithOverloadsReplacement

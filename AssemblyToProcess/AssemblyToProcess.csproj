@@ -6,6 +6,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Using Remove="System.Net.Http" />
-    <ProjectReference Include="..\Ionad\Ionad.csproj" />
+    <ProjectReference Include="..\HIT.Ionad\HIT.Ionad.csproj" />
   </ItemGroup>
 </Project>

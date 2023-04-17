@@ -1,22 +1,20 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29201.188
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33606.364
 MinimumVisualStudioVersion = 16.0.29201.188
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ionad.Fody", "Ionad.Fody\Ionad.Fody.csproj", "{CD3BB09A-7217-4409-B8D9-D33194048271}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyToProcess", "AssemblyToProcess\AssemblyToProcess.csproj", "{A99FCE99-5109-4082-A20B-CD60385C5E18}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{204C7356-4534-4961-988B-DE09DA3956D8}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ionad", "Ionad\Ionad.csproj", "{6A65A688-9C9B-4422-B70D-4662F6D2A6A9}"
-	ProjectSection(ProjectDependencies) = postProject
-		{CD3BB09A-7217-4409-B8D9-D33194048271} = {CD3BB09A-7217-4409-B8D9-D33194048271}
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F7A2A58-E5A9-426E-B54C-0179D7FF49BE}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HIT.Ionad", "HIT.Ionad\HIT.Ionad.csproj", "{50C79A84-2D9A-4F41-846D-DA0CCC130B58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HIT.Ionad.Fody", "HIT.Ionad.Fody\HIT.Ionad.Fody.csproj", "{D93A09C5-4CFD-441F-B360-9B6676327B24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,10 +22,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CD3BB09A-7217-4409-B8D9-D33194048271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD3BB09A-7217-4409-B8D9-D33194048271}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD3BB09A-7217-4409-B8D9-D33194048271}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD3BB09A-7217-4409-B8D9-D33194048271}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A99FCE99-5109-4082-A20B-CD60385C5E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A99FCE99-5109-4082-A20B-CD60385C5E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A99FCE99-5109-4082-A20B-CD60385C5E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,10 +30,14 @@ Global
 		{204C7356-4534-4961-988B-DE09DA3956D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{204C7356-4534-4961-988B-DE09DA3956D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{204C7356-4534-4961-988B-DE09DA3956D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6A65A688-9C9B-4422-B70D-4662F6D2A6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A65A688-9C9B-4422-B70D-4662F6D2A6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A65A688-9C9B-4422-B70D-4662F6D2A6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A65A688-9C9B-4422-B70D-4662F6D2A6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C79A84-2D9A-4F41-846D-DA0CCC130B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C79A84-2D9A-4F41-846D-DA0CCC130B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C79A84-2D9A-4F41-846D-DA0CCC130B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C79A84-2D9A-4F41-846D-DA0CCC130B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93A09C5-4CFD-441F-B360-9B6676327B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93A09C5-4CFD-441F-B360-9B6676327B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93A09C5-4CFD-441F-B360-9B6676327B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93A09C5-4CFD-441F-B360-9B6676327B24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
