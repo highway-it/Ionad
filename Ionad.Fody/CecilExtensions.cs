@@ -77,7 +77,7 @@ public static class CecilExtensions
 
     static bool Matches(ParameterDefinition left, ParameterDefinition right)
     {
-        if (left.ParameterType == right.ParameterType)
+        if (left.ParameterType.FullName == right.ParameterType.FullName)
             return true;
         if (left.ParameterType.IsGenericParameter && right.ParameterType.IsGenericParameter)
             return true;
